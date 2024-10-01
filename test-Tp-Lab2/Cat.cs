@@ -32,7 +32,7 @@ namespace CompanionApp
             }
             else
             {
-                return "Silent";
+                return "Silent...";
             }
         }
     }

@@ -6,11 +6,11 @@ namespace CompanionApp
     {
         static void Main(string[] args)
         {
-            Cat cat = new Cat("Whiskers", 3);
-            Dog dog = new Dog("Buddy", 5);
+            Cat cat = new Cat("Barsik", 3);
+            Dog dog = new Dog("Bobik", 5);
 
-            Person person1 = new Person("Alice", cat);
-            Person person2 = new Person("Bob", dog);
+            Person person1 = new Person("Denis", cat);
+            Person person2 = new Person("Marina", dog);
 
             person1.GetCompanionInfo();
             person2.GetCompanionInfo();

@@ -1,4 +1,5 @@
 ﻿using System;
+using test_Tp_Lab2;
 
 namespace CompanionApp
 {
@@ -28,7 +29,7 @@ namespace CompanionApp
             Console.WriteLine($"Name: {Name}");
             Console.WriteLine($"Companion Name: {Companion.GetName()}");
             Console.WriteLine($"Companion Age: {Companion.GetAge()}");
-            Console.WriteLine($"Companion Sound: {Companion.MakeSound()}");
+            Companion.MakeSound();
             Console.WriteLine();
         }
     }

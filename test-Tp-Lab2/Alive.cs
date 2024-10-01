@@ -6,6 +6,6 @@ namespace CompanionApp
     {
         string GetName();
         int GetAge();
-        string MakeSound();
+        void MakeSound();
     }
 }

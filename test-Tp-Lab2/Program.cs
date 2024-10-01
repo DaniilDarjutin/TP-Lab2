@@ -6,8 +6,8 @@ namespace CompanionApp
     {
         static void Main(string[] args)
         {
-            Cat cat = new Cat("Barsik", 3);
-            Dog dog = new Dog("Bobik", 5);
+            Cat cat = new Cat(3, "Barsik");
+            Dog dog = new Dog(5, "Bobik");
 
             Person person1 = new Person("Denis", cat);
             Person person2 = new Person("Marina", dog);
